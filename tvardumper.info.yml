@@ -1,0 +1,6 @@
+name: TVarDumper for Drupal 8
+description: Provides a customized TVarDumper service integration for Drupal 8. The main difference is making TVarDumper focused on dumping to file instead of printing and removal of the highlighting feature as it's obsolete in the new context.
+package: Custom
+
+type: module
+core: 8.x

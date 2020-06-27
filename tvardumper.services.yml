@@ -1,0 +1,7 @@
+services:
+  tvardumper:
+    class: Drupal\tvardumper\TVarDumper
+  tvardumper.twig_extension:
+    class: Drupal\tvardumper\TVarDumperTwigExtension
+    tags:
+      - { name: twig.extension }
